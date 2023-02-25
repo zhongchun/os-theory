@@ -1,2 +1,2 @@
-gcc -c test.S
-ld -o test test.o
+gcc -c test_hello.s
+ld -o test.out test_hello.o
