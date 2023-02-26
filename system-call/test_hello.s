@@ -9,13 +9,12 @@
 #     gcc -nostdlib hello.s && ./a.out
 # ----------------------------------------------------------------------------------------
 
-.data
-
+.section .data
 msg:
     .ascii "Hello, world!\n"
     len = . - msg
 
-.text
+.section .text
     .global _start
 
 _start:
