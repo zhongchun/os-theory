@@ -1,3 +1,3 @@
 # os
 
-Some os projects.
+Some os simple projects.
