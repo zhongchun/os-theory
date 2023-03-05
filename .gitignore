@@ -1,3 +1,5 @@
+.python-version
+
 *.o
 *.out
-.python-version
+*.log
